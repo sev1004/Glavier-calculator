@@ -1,0 +1,1602 @@
+[
+  {
+    "Name": "이연격",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_5.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "화염 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_13.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[화] 속성으로 변경되고, 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초간 화상 상태로 만들어 매 초마다 <FONT COLOR='#00ccff'>68,128</FONT>의 피해를 입힌다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "냉기 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_14.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[수] 속성으로 변경되고, 적중 시 <FONT COLOR='#ffff99'>6.0</FONT>초간 냉기 상태를 걸어 이동 속도를 <FONT COLOR='#99ff99'>46.2%</FONT> 감소시킨다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "대지 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_15.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[토] 속성으로 변경되고, 시드 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 만큼 증가하며, 무력화 단계 [하]가 부여된다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "날카로운 올려치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_9.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>올려치는 공격에 힘을 모아, 적을 공중에 띄운다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_0.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "공간 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하며, 마지막 타격시 기를 남겨 적을 추가로 공격해 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하고, 공중에 뜬 적 공격 시 다시 띄우고 날려버린다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "속성 강타",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_77.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경되며 추가 키를 입력 할 경우 내려찍는 공격을 하여 <FONT COLOR='#99ff99'>94.8%</FONT>의 추가 피해를 준다. 또한 화염 베기와 냉기 베기의 효과가 <FONT COLOR='#99ff99'>100%</FONT> 증가하고, 대지 베기를 적용할 경우 시드 이하의 적에게 주는 피해 증가 효과가 <FONT COLOR='#99ff99'>100%</FONT> 증가하며, 스킬의 무력화 단계가 [중]으로 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"이연격\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 6초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_5.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 39 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 <FONT COLOR='#ffff99'>2</FONT>회 휘둘러 <FONT COLOR='#ffbb00'>292,973</FONT>, <FONT COLOR='#ffbb00'>439,460</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 53 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 <FONT COLOR='#ffff99'>2</FONT>회 휘둘러 <FONT COLOR='#ffbb00'>293,035</FONT>, <FONT COLOR='#ffbb00'>439,553</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "연환섬",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_13.png",
+    "Level": 4,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "환영섬",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>첫 타격 후 분신이 소환되어 <FONT COLOR='#ffff99'>2</FONT>회 추가로 적을 베어내며 캐릭터는 다시 원래의 위치로 돌아온다. 적에게 주는 총 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급습",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>즉시 <FONT COLOR='#99ff99'>6.0m</FONT> 가량 전진하며 <FONT COLOR='#ffff99'>1</FONT>회 베는 공격을 가한다. 이동 중 경직에 면역이 되며, 적에게 주는 총 피해는 동일하다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "치명적인 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>전방으로 전진하지 않고 제자리에서 빠르게 <FONT COLOR='#ffff99'>4</FONT>회 창을 휘둘러 적을 경직시키고 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.3%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [중상] 으로 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "뇌쇄된 표적",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_29.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>10.0%</FONT> 증가하고 피격이상 중인 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>105.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "광휘의 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>창을 휘두르면 <FONT COLOR='#99ff99'>8.0m</FONT>가량 기가 뻗어나가며 적을 경직시키고 주는 피해가 <FONT COLOR='#99ff99'>95.2%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"연환섬\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 10초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_13.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 105 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 위로 올려쳐 <FONT COLOR='#ffbb00'>353,913</FONT>의 피해를 주며 적을 띄운 뒤 전방으로 <FONT COLOR='#ffff99'>3m</FONT>가량 전진하여 베기 공격을 하여 <FONT COLOR='#ffbb00'>283,199</FONT> 피해를 준다. 이후 신속하게 반대 방향으로 <FONT COLOR='#ffff99'>2</FONT>회 베어 <FONT COLOR='#ffbb00'>353,913</FONT>, <FONT COLOR='#ffbb00'>424,628</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>즉시 <FONT COLOR='#99ff99'>6.0m</FONT> 가량 전진하며 <FONT COLOR='#ffff99'>1</FONT>회 베는 공격을 가한다. 이동 중 경직에 면역이 되며, 적에게 주는 총 피해는 동일하다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>급습</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 135 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 위로 올려쳐 <FONT COLOR='#ffbb00'>353,943</FONT>의 피해를 주며 적을 띄운 뒤 전방으로 <FONT COLOR='#ffff99'>3m</FONT>가량 전진하여 베기 공격을 하여 <FONT COLOR='#ffbb00'>283,223</FONT> 피해를 준다. 이후 신속하게 반대 방향으로 <FONT COLOR='#ffff99'>2</FONT>회 베어 <FONT COLOR='#ffbb00'>353,943</FONT>, <FONT COLOR='#ffbb00'>424,665</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "열공참",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_7.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "재빠른 손놀림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "화염 회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_13.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[화] 속성으로 변경되고, <FONT COLOR='#ffff99'>5.0</FONT>초간 화상 상태로 만들어 매 초마다 <FONT COLOR='#00ccff'>36,139</FONT>의 피해를 입힌다. 최대 <FONT COLOR='#ffff99'>5</FONT>중첩이 가능하다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "냉기 회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_14.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[수] 속성으로 변경되고, <FONT COLOR='#ffff99'>6.0</FONT>초간 냉기 상태를 걸어 이동 속도를 <FONT COLOR='#99ff99'>14.4%</FONT> 감소시킨다. 최대 <FONT COLOR='#ffff99'>5</FONT>중첩이 가능하며 <FONT COLOR='#ffff99'>5</FONT>중첩 시 적을 <FONT COLOR='#ffff99'>3.0</FONT>초간 동결 시킨다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "환영참",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>첫 타격 후 분신이 소환되어 나머지 공격 동작을 이어나가며, 캐릭터는 다시 원래의 위치로 돌아온다. 적에게 주는 총 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "단극회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>체인 조작으로 변경되어 최대 <FONT COLOR='#99ff99'>2</FONT>번 사용이 가능하고, 이동거리가 <FONT COLOR='#99ff99'>2.0m</FONT> 증가하지만, 타격 횟수가 <FONT COLOR='#ff9999'>3</FONT>회로 감소하여 적에게 주는 피해량이 최대 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "초극회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>전방으로 전진하지 않고 제자리에서 창을 빠르게 휘둘러 타격 회수가 <FONT COLOR='#99ff99'>7</FONT>회로 증가하고, 적에게 주는 피해가 <FONT COLOR='#99ff99'>119.6%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"열공참\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 10초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_7.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 53 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 휘두르며 전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 전진하여 <FONT COLOR='#ffbb00'>341,972</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 마지막 타격은 <FONT COLOR='#ffbb00'>505,361</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 72 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 휘두르며 전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 전진하여 <FONT COLOR='#ffbb00'>342,045</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 마지막 타격은 <FONT COLOR='#ffbb00'>505,468</FONT>의 피해를 준다. 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "선풍참혼",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_16.png",
+    "Level": 1,
+    "Type": "콤보",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "협력 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경된다. 전진하여 창을 휘두르고 후방으로 돌아오면 자신의 분신이 전방으로 돌진하여 좌우로 휘두르고 마무리 일격을 가해 적에게 피해를 주며 사라진다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>35.0%</FONT> 증가한다. </font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "신속 전진",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_10.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>일반 조작으로 변경된다. 전진하여 좌우로 <FONT COLOR='#ffff99'>2</FONT>회 베는 공격을 하고 적에게 주는 피해가 <FONT COLOR='#99ff99'>46.4%</FONT> 증가한다. </font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "광휘의 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>전방으로 <FONT COLOR='#99ff99'>1.0m</FONT> 전진하며 창을 휘두를 때 마다 기를 날려 적을 경직시키고 적에게 주는 피해가 <FONT COLOR='#99ff99'>40.3%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "통제",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_2.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격속도가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하고 공격 적중 시 적의 모든 방어력을 <FONT COLOR='#99ff99'>84.0%</FONT> 무시한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "강화된 뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [중상] 으로 증가한다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>95.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"선풍참혼\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 15초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#20EDFE'>콤보</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_16.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 67 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>3m</FONT> 미끄러지듯이 나가며 창을 휘둘러 <FONT COLOR='#ffbb00'>428,020</FONT>의 피해를 준다. 이후 후방으로 <FONT COLOR='#ffff99'>3m</FONT> 돌아오며 몸을 움츠린다. 추가 키 입력 시 전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 돌진하여 <FONT COLOR='#ffbb00'>356,655</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 주고 빠르게 좌우로 휘두르고 마무리 일격을 가하여 적에게 <FONT COLOR='#ffbb00'>485,044</FONT>, <FONT COLOR='#ffbb00'>356,655</FONT>, <FONT COLOR='#ffbb00'>356,655</FONT>, <FONT COLOR='#ffbb00'>513,556</FONT>의 피해를 준다. 공중에 뜬 적을 타격 시 재차 띄우며 타격을 가한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 91 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>3m</FONT> 미끄러지듯이 나가며 창을 휘둘러 <FONT COLOR='#ffbb00'>428,110</FONT>의 피해를 준다. 이후 후방으로 <FONT COLOR='#ffff99'>3m</FONT> 돌아오며 몸을 움츠린다. 추가 키 입력 시 전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 돌진하여 <FONT COLOR='#ffbb00'>356,731</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 주고 빠르게 좌우로 휘두르고 마무리 일격을 가하여 적에게 <FONT COLOR='#ffbb00'>485,147</FONT>, <FONT COLOR='#ffbb00'>356,731</FONT>, <FONT COLOR='#ffbb00'>356,731</FONT>, <FONT COLOR='#ffbb00'>513,665</FONT>의 피해를 준다. 공중에 뜬 적을 타격 시 재차 띄우며 타격을 가한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "일섬각",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_9.png",
+    "Level": 4,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "약점 공략",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_158.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격에 적중된 적은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 자신 및 파티원의 치명타 공격에 받는 피해가 <FONT COLOR='#99ff99'>8.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>무력화 단계 [하]가 부여된다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "기절 효과",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_30.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>발차기 공격에 적중 시 적을 <FONT COLOR='#ffff99'>4.0</FONT>초간 기절시키지만 재사용 대기시간이 <FONT COLOR='#ff9999'>4.0</FONT>초 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>5.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "강회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>몸을 회전시키며 적을 더 많이 타격한다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하며, 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하고, 무력화 단계 [하]가 부여된다. 뇌진탕을 적용할 경우 무력화 단계가 [중]으로 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "공중 강습",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_52.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>지점 조작으로 변경된다. 최대 <FONT COLOR='#99ff99'>8m</FONT> 내 지정된 위치로 점프하여 적에게 피해를 입힌다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"일섬각\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_9.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 117 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 지렛대로 사용하여 전방으로 <FONT COLOR='#ffff99'>9m</FONT>가량 전진하며 <FONT COLOR='#ffbb00'>256,894</FONT>피해를 <FONT COLOR='#ffff99'>3</FONT>회 준 뒤 강한 발차기로 <FONT COLOR='#ffbb00'>415,062</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격에 적중된 적은 <FONT COLOR='#ffff99'>12.0</FONT>초 동안 자신 및 파티원의 치명타 공격에 받는 피해가 <FONT COLOR='#99ff99'>8.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 공략</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_158.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 150 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 지렛대로 사용하여 전방으로 <FONT COLOR='#ffff99'>9m</FONT>가량 전진하며 <FONT COLOR='#ffbb00'>256,917</FONT>피해를 <FONT COLOR='#ffff99'>3</FONT>회 준 뒤 강한 발차기로 <FONT COLOR='#ffbb00'>415,098</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "철량추",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_10.png",
+    "Level": 4,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>4.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "탁월한 기동성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>전방으로 이동거리가 <FONT COLOR='#99ff99'>3.0m</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "강한 올려차기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_9.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적을 띄우는 높이와 넘어져 있는 시간이 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [중]으로 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "대지 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_15.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[토]속성으로 변경되며, 적을 더 이상 띄우지 않고 <FONT COLOR='#ffff99'>5.0</FONT>초 동안 이동 속도를 <FONT COLOR='#99ff99'>70.0%</FONT> 감소시킨다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "퍼올리기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>올려차기를 할 때 바닥을 긁어 공격해 공격 거리가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하고 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT>증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "지면 강타",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_77.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>올려찬 후 창으로 내려찍어 적을 바닥에 내리꽂는다. 내려찍는 공격은 올려차는 공격과 동일한 피해를 입히며, 항상 치명타로 적용된다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"철량추\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 10초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_10.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 105 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 바닥에 꽂고 몸을 실어 한바퀴 회전하여 <FONT COLOR='#ffbb00'>1,025,869</FONT>의 피해를 주고 적을 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>카운터 : 가능</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>전방으로 이동거리가 <FONT COLOR='#99ff99'>3.0m</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>탁월한 기동성</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 135 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 바닥에 꽂고 몸을 실어 한바퀴 회전하여 <FONT COLOR='#ffbb00'>1,025,957</FONT>의 피해를 주고 적을 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "반월섬",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_12.png",
+    "Level": 11,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "풍압 올려치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>올려치는 공격에 풍압을 일으켜 공격 거리가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "회전 올려치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>바닥 긁기로 한번 더 회전하며, 적을 모은 후 올려쳐 적에게 주는 피해가 <FONT COLOR='#99ff99'>46.4%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "이중 올려치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_9.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>올려치기 후 한번 더 올려쳐 기본 피해량의 <FONT COLOR='#99ff99'>80.0%</FONT> 추가 피해를 주며 적을 공중으로 띄운다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "돌격 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_42.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>홀딩 조작으로 변경된다. 홀딩 중 전방으로 돌격하여 최대 기본 피해량의 <FONT COLOR='#99ff99'>120.0%</FONT> 추가 피해를 주며 홀딩 종료 즉시 올려친다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "강풍 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>올려칠 때 회오리를 일으켜 적에게 기본 피해량의 <FONT COLOR='#99ff99'>80.0%</FONT>피해를 준다. 풍압 올려치기를 적용할 경우 회오리도 커지며, 이중 올려치기를 적용할 경우 회오리를 전방으로 날려버린다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "풍요",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_204.png",
+      "Grade": "영웅",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>풍요</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":3,\"iconPath\":\"efui_iconatlas/use/use_7_204.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 아이덴티티 게이지 획득량 30% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[필드 보스] 블루홀 섬 - 이아르 카야</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"반월섬\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 18초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_12.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 11\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 386 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 긴창을 바닥에 끌면서 이동하여 <FONT COLOR='#ffbb00'>529,470</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 주고 대각선 방향으로 올려치며 <FONT COLOR='#ffbb00'>907,907</FONT>, <FONT COLOR='#ffbb00'>1,059,286</FONT>의 피해를 주며 적을 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 포착</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_33.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>급소 타격</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>올려칠 때 회오리를 일으켜 적에게 기본 피해량의 <FONT COLOR='#99ff99'>80.0%</FONT>피해를 준다. 풍압 올려치기를 적용할 경우 회오리도 커지며, 이중 올려치기를 적용할 경우 회오리를 전방으로 날려버린다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>강풍 베기</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#ce43fc'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 30% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>반월섬</FONT> 피해 44.00% 증가 \"\r\n    }\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 12\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 60\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 386 소모\"\r\n  },\r\n  \"Element_014\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 긴창을 바닥에 끌면서 이동하여 <FONT COLOR='#ffbb00'>555,755</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 주고 대각선 방향으로 올려치며 <FONT COLOR='#ffbb00'>953,138</FONT>, <FONT COLOR='#ffbb00'>1,112,028</FONT>의 피해를 주며 적을 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_015\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "맹룡열파",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_15.png",
+    "Level": 14,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "냉기참",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_14.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[수] 속성으로 변경되고, 적을 날려버리지 않고 경직이 발생한다. 공격 적중 시 <FONT COLOR='#ffff99'>4.0</FONT>초간 냉기에 걸려 이동 속도가 <FONT COLOR='#99ff99'>35.0%</FONT> 감소된다. <FONT COLOR='#ffff99'>2</FONT>회 중첩 시 <FONT COLOR='#ffff99'>4.0</FONT>초간 동결에 걸린다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "추가 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_38.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경된다. 창을 휘두른 이후 추가 키 입력 시 전방으로 <FONT COLOR='#99ff99'>4.0m</FONT>가량 이동하며 반대 방향으로 창을 강하게 휘두르며 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.8%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "우회 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>대각으로 창을 휘둘러 공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하고 공격시간이 <FONT COLOR='#99ff99'>0.6</FONT>초 줄어들어 즉시 창을 휘둘러 적에게 주는 피해가 <FONT COLOR='#99ff99'>46.4%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "정교한 베기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격시간이 <FONT COLOR='#ff9999'>1.3</FONT>초 증가하고 적에게 주는 피해가 <FONT COLOR='#99ff99'>120.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "불굴의 용기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_23.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 피격이상에 면역되며 받는 피해가 <FONT COLOR='#99ff99'>40.8%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "각성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>창을 휘두르면 휘두르는 궤적에 용이 나타나 <FONT COLOR='#ffff99'>3</FONT>회 다단히트 공격을 가하여 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "풍요",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_204.png",
+      "Grade": "전설",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>풍요</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_204.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 아이덴티티 게이지 획득량 40% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[수집품] 오르페우스의 별</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"맹룡열파\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_15.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 14\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 456 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>순간 더욱 큰 창으로 바뀌고 <FONT COLOR='#ffff99'>360</FONT>도 크게 휘둘러 적에게 <FONT COLOR='#ffbb00'>4,583,810</FONT> 피해를 주며 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>급소 타격</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>대각으로 창을 휘둘러 공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하고 공격시간이 <FONT COLOR='#99ff99'>0.6</FONT>초 줄어들어 즉시 창을 휘둘러 적에게 주는 피해가 <FONT COLOR='#99ff99'>46.4%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>우회 베기</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>창을 휘두르면 휘두르는 궤적에 용이 나타나 <FONT COLOR='#ffff99'>3</FONT>회 다단히트 공격을 가하여 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>각성</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 40% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>맹룡열파</FONT> 피해 44.00% 증가 <BR>[창술사] <FONT COLOR='#FFD200'>맹룡열파</FONT> 재사용 대기시간 24.00% 감소 \"\r\n    }\r\n  }\r\n}"
+  },
+  {
+    "Name": "회선창",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_8.png",
+    "Level": 4,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [중상] 으로 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "내리꽂기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_77.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적이 공중에 떠 있지 않아도 마지막 공격 적중 시 내리꽂는다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "탁월한 기동성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>이동 거리가 <FONT COLOR='#99ff99'>2.0m</FONT> 증가하고, 적을 밀어내는 거리가 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>75.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강인함",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_23.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 피격이상에 면역이 된다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "바닥 가르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "연속 회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경되며, 연속으로 <FONT COLOR='#99ff99'>2</FONT>회 사용할 수 있고 적에게 주는 피해가 <FONT COLOR='#99ff99'>144.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"회선창\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 14초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_8.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 128 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>종방향으로 회전하여 <FONT COLOR='#ffbb00'>449,222</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 마지막 타격은 <FONT COLOR='#ffbb00'>577,501</FONT>의 피해를 준다. 회전 중 공중에 뜬 적을 공격 시 다시 공중에 띄우고 마지막 타격을 적중 시키면 내려찍어 버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>스킬의 무력화 단계가 [중상] 으로 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>뇌진탕</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 18\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 164 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>종방향으로 회전하여 <FONT COLOR='#ffbb00'>449,260</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 마지막 타격은 <FONT COLOR='#ffbb00'>577,549</FONT>의 피해를 준다. 회전 중 공중에 뜬 적을 공격 시 다시 공중에 띄우고 마지막 타격을 적중 시키면 내려찍어 버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "공의연무",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_17.png",
+    "Level": 1,
+    "Type": "콤보",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "습격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_47.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>창을 바닥에 꽂는 공격에 적중 시 <FONT COLOR='#ffff99'>8.0</FONT>초 동안 적의 이동속도가 <FONT COLOR='#99ff99'>35.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "탁월한 기동성",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_10.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>내려찍는 공격의 이동거리가 <FONT COLOR='#99ff99'>2.0m</FONT> 증가된다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "넓은 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>모든 공격의 공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "단단한 갑옷",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_25.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 받는 피해가 <FONT COLOR='#99ff99'>40.8%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "완벽한 착지",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>추가 키 입력으로 이어지는 공격이 <FONT COLOR='#ffff99'>360</FONT>도 창을 휘두르도록 변경되어 주변 적에게 피해를 준다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "신속한 대응",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>6.0</FONT>초 감소한다. 움직임이 간결해진다. 창을 꽂은 뒤 회전 발차기 공격을 생략하고 즉시 창에 몸을 지탱한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "날이 선 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>최대 <FONT COLOR='#ffff99'>9.0m</FONT> 내의 마우스 위치로 강하게 내려찍는 공격으로 바뀐다. 이동 중 모험가 및 일반 몬스터와 충돌이 무시되고 적에게 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다. </font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"공의연무\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 16초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#20EDFE'>콤보</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_17.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 70 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>점프하여 전방 <FONT COLOR='#ffff99'>5m</FONT>가량 위치에 창을 바닥에 꽂고 주변 적에게 <FONT COLOR='#ffbb00'>337,021</FONT> 피해를 준다. 이후 회전 발차기 공격을 하여 적에게 <FONT COLOR='#ffbb00'>337,021</FONT>의 피해 <FONT COLOR='#ffff99'>1</FONT>회, <FONT COLOR='#ffbb00'>224,681</FONT>의 피해를 <FONT COLOR='#ffff99'>4</FONT>회 준다. 추가 키 입력 시 마우스 방향으로 착지하며 창을 휘둘러 <FONT COLOR='#ffbb00'>674,043</FONT> 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 20\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 95 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>점프하여 전방 <FONT COLOR='#ffff99'>5m</FONT>가량 위치에 창을 바닥에 꽂고 주변 적에게 <FONT COLOR='#ffbb00'>337,092</FONT> 피해를 준다. 이후 회전 발차기 공격을 하여 적에게 <FONT COLOR='#ffbb00'>337,092</FONT>의 피해 <FONT COLOR='#ffff99'>1</FONT>회, <FONT COLOR='#ffbb00'>224,729</FONT>의 피해를 <FONT COLOR='#ffff99'>4</FONT>회 준다. 추가 키 입력 시 마우스 방향으로 착지하며 창을 휘둘러 <FONT COLOR='#ffbb00'>674,187</FONT> 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "청룡출수",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_11.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>7.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "무방비 표적",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_29.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 중인 적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "번개 회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>홀딩 스킬로 변경된다. 더 이상 전방으로 돌진하지 않지만, 이동하며 창을 빠르게 좌우로 교차하면서 회전시켜 적을 타격하고 마지막으로 마우스 방향으로 적을 내려쳐 적에게 주는 피해가 <FONT COLOR='#99ff99'>95.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "환영 출수",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>돌진 후 분신이 소환되어 나머지 공격 동작을 이어나가며, 캐릭터는 다시 원래의 위치로 돌아온다. 적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_0.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "창의 장막",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_23.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>창을 돌리는 공격의 범위가 <FONT COLOR='#99ff99'>25.0%</FONT> 증가하고, 창을 돌리는 도중에 피격 이상에 면역이 되며, 받는 피해가 <FONT COLOR='#99ff99'>40.8%</FONT> 감소한다. 환영 출수 트라이포드 적용 시 분신이 창을 돌리는 영역에 있을 경우 효과가 적용된다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마지막 공격이 점프하여 전방을 크게 내려치는 공격으로 변경되며, 적을 날려버린다. 듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>105.0%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"청룡출수\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_11.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 80 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 전진하여 <FONT COLOR='#ffbb00'>289,900</FONT> 피해를 준다. 이후 창을 빠르게 휘둘러 <FONT COLOR='#ffbb00'>338,387</FONT>의 피해를 <FONT COLOR='#ffff99'>6</FONT>회 주고 마지막으로 내려치는 공격을 해 <FONT COLOR='#ffbb00'>579,970</FONT>의 피해를 준다. 내려치는 공격을 제외한 나머지 타격은 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 24\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 108 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 <FONT COLOR='#ffff99'>4m</FONT>가량 전진하여 <FONT COLOR='#ffbb00'>289,962</FONT> 피해를 준다. 이후 창을 빠르게 휘둘러 <FONT COLOR='#ffbb00'>338,458</FONT>의 피해를 <FONT COLOR='#ffff99'>6</FONT>회 주고 마지막으로 내려치는 공격을 해 <FONT COLOR='#ffbb00'>580,093</FONT>의 피해를 준다. 내려치는 공격을 제외한 나머지 타격은 공중에 뜬 적을 공격 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "풍진격",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_6.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>무력화 단계 [하]가 부여된다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "발묶기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_47.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬에 적중 시 적의 이동 속도가 <FONT COLOR='#ffff99'>3.0</FONT>초 동안 <FONT COLOR='#99ff99'>69.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_0.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "대회전",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_88.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경되고, 더 큰 회전 공격이 추가되어 적들을 한번 더 모으며 적에게 주는 피해가 <FONT COLOR='#99ff99'>145.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "내려치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_77.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>회전 대신 내려찍기 공격으로 변경된다. 범위가 직선형으로 변경되고 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가 및 치명타 피해가 <FONT COLOR='#99ff99'>100.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"풍진격\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 12초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_6.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 59 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>크게 전방위로 창을 휘둘러 <FONT COLOR='#ffbb00'>1,218,501</FONT>의 피해를 주고, 적을 자신 앞으로 모은다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 28\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 81 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>크게 전방위로 창을 휘둘러 <FONT COLOR='#ffbb00'>1,218,758</FONT>의 피해를 주고, 적을 자신 앞으로 모은다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "질풍참",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_14.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_56.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>7.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "단단한 갑옷",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_25.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 받는 피해가 <FONT COLOR='#99ff99'>30.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "전장의 동료",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_40.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>자신의 분신이 전방을 향해 돌격하여 적에게 피해를 주고 원래 위치로 돌아오며 사라진다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "용맹한 행동",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_42.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>홀딩 조작이 되고 공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하며 적에게 주는 피해가 최대 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다. 최대 <FONT COLOR='#ffff99'>2.2</FONT>초 동안 유지하고 원래 위치로 돌아온다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "신속 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하지만 즉시 빠르게 전방 <FONT COLOR='#ffff99'>1</FONT>회 공격을 한 뒤 원래 위치로 돌아온다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "강화된 일격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_50.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다. 대상이 시드 등급 이하 몬스터일 경우에는 <FONT COLOR='#99ff99'>220.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"질풍참\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_14.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 80 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방 <FONT COLOR='#ffff99'>8m</FONT>내 범위를 빠르게 관통 이동하여 적에게 <FONT COLOR='#ffbb00'>785,358</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 원래의 위치로 돌아오며 <FONT COLOR='#ffbb00'>1,009,699</FONT>의 피해를 준다.</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 2\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 36\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 108 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방 <FONT COLOR='#ffff99'>8m</FONT>내 범위를 빠르게 관통 이동하여 적에게 <FONT COLOR='#ffbb00'>785,525</FONT>의 피해를 <FONT COLOR='#ffff99'>3</FONT>회 주고 원래의 위치로 돌아오며 <FONT COLOR='#ffbb00'>1,009,913</FONT>의 피해를 준다.</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "청룡진",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_18.png",
+    "Level": 10,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_20.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>부위파괴 레벨이 <FONT COLOR='#99ff99'>1</FONT> 만큼 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [중] 으로 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "약점 공략",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_158.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격에 적중된 적은 <FONT COLOR='#ffff99'>16.0</FONT>초 동안 자신 및 파티원의 치명타 공격에 받는 피해가 <FONT COLOR='#99ff99'>8.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "집중 공략",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하고 즉시 창을 바닥에 내려찍는다. </font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "대지 파괴",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_15.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>[토] 속성으로 변경되고, 공격 적중 시 <FONT COLOR='#ffff99'>5.0</FONT>초 동안 지진에 걸린다. </font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "내려치는 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_52.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하지만, 마우스 위치에 창이 떨어지는 공격을 가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "빠른 준비",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_56.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>11.0</FONT>초 감소한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "최후의 판단",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_91.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>듀얼 게이지를 <FONT COLOR='#ff9999'>1</FONT>칸 소모하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>190.4%</FONT> 증가한다. 보유한 듀얼 게이지가 <FONT COLOR='#ff9999'>1</FONT>칸 미만이면 적용 되지 않는다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "풍요",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_204.png",
+      "Grade": "영웅",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>풍요</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":3,\"iconPath\":\"efui_iconatlas/use/use_7_204.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 적중 시 아이덴티티 게이지 획득량 30% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[수집품] 항해 모험물</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"청룡진\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 30초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_18.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 10\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 518 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>제자리에서 창을 돌린 뒤 바닥에 강하게 내려찍어 충격파가 퍼져 적에게 <FONT COLOR='#ffbb00'>2,635,624</FONT> 피해를 준다. 스킬 시전 시 연가공법을 발동시켜 <FONT COLOR='#ffff99'><FONT COLOR='#ffff99'>6</FONT></FONT>초 동안 치명타 적중률이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격에 적중된 적은 <FONT COLOR='#ffff99'>16.0</FONT>초 동안 자신 및 파티원의 치명타 공격에 받는 피해가 <FONT COLOR='#99ff99'>8.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 공략</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_158.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하고 즉시 창을 바닥에 내려찍는다. </font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>집중 공략</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>재사용 대기시간이 <FONT COLOR='#99ff99'>11.0</FONT>초 감소한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>빠른 준비</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_56.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#ce43fc'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 30% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>청룡진</FONT> 재사용 대기시간 24.00% 감소 \"\r\n    }\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 11\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 55\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 518 소모\"\r\n  },\r\n  \"Element_014\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>제자리에서 창을 돌린 뒤 바닥에 강하게 내려찍어 충격파가 퍼져 적에게 <FONT COLOR='#ffbb00'>2,866,901</FONT> 피해를 준다. 스킬 시전 시 연가공법을 발동시켜 <FONT COLOR='#ffff99'><FONT COLOR='#ffff99'>6</FONT></FONT>초 동안 치명타 적중률이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>\"\r\n  },\r\n  \"Element_015\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "나선창",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_20.png",
+    "Level": 4,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "약점 공략",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_158.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격에 적중된 적은 <FONT COLOR='#ffff99'>7.0</FONT>초 동안 자신 및 파티원의 치명타 공격에 받는 피해가 <FONT COLOR='#99ff99'>8.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "어깨 치기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_60.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>콤보 조작으로 변경된다. 전방으로 <FONT COLOR='#ffff99'>5.0m</FONT> 이동하며 어깨치기를 하여 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT> 피해를 주고 추가 키 입력 시 찌르는 공격을 한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "연속 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>추가로 <FONT COLOR='#99ff99'>2</FONT>회 더 공격하여, 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.8%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "나선 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 시 창을 빠르게 돌려 폭이 <FONT COLOR='#99ff99'>20.0%</FONT> 증가하고, 찌르는 공격의 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "모아 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_50.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>찌르기 전 창을 흔들며 힘을 모은뒤 더 강하게 찔러 적을 넘어뜨리고 적에게 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다. 무력화 단계 [중]이 부여된다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "기합 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_78.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>찌르기 후 기합으로 창 주위를 폭파 시켜 적에게 기본 피해량의 <FONT COLOR='#99ff99'>70.0%</FONT> 피해를 주며 날려버린다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "관통 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>찌르기를 할 때 기를 발사하여 공격 거리가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "속행",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_196.png",
+      "Grade": "영웅",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>속행</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":3,\"iconPath\":\"efui_iconatlas/use/use_7_196.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 12% 감소\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[퀘스트] 별모래 해변 - 위대한 재건</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"나선창\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 5초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_20.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 4\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 71 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>허리를 숙이며 간결하게 찔러 <FONT COLOR='#ffbb00'>383,125</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>카운터 : 가능</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>콤보 조작으로 변경된다. 전방으로 <FONT COLOR='#ffff99'>5.0m</FONT> 이동하며 어깨치기를 하여 기본 피해량의 <FONT COLOR='#99ff99'>45.0%</FONT> 피해를 주고 추가 키 입력 시 찌르는 공격을 한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>어깨 치기</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_60.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#ce43fc'>속행</FONT>] 스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 12% 감소\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 5\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 10\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>4\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 90 소모\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>허리를 숙이며 간결하게 찔러 <FONT COLOR='#ffbb00'>383,159</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_014\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "사두룡격",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_21.png",
+    "Level": 14,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "재빠른 손놀림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 속도가 <FONT COLOR='#99ff99'>27.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "급소 타격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "난폭한 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_42.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>홀딩 조작으로 변경된다. 홀딩 중 이동이 가능해지며, 연속 찌르기 시간이 더 길어져 적에게 주는 피해가 최대 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "최후의 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>더욱 빠르게 스킬이 시전되고 마지막 찌르기 공격의 피해가 <FONT COLOR='#99ff99'>200.0%</FONT> 증가하며 적중된 적을 날려버린다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "그림자 찌르기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'><FONT COLOR='#ffff99'>1</FONT>회 찌른 후 이동이 가능하며, 잔상이 남아 찌르기를 계속 이어간다. 치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "일기당천",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_61.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적중한 적 <FONT COLOR='#ffff99'>1</FONT>명 당 재사용 대기시간이 <FONT COLOR='#99ff99'>1.0</FONT>초씩 최대 <FONT COLOR='#99ff99'>8.0</FONT>초까지 감소하며, 시드 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>145.0%</FONT> 만큼 증가한다. 그림자 찌르기 트라이포드 적용 시에는 재사용 대기시간 감소가 타격 당 <FONT COLOR='#99ff99'>0.2</FONT>초씩 최대 <FONT COLOR='#99ff99'>8.0</FONT>초까지 감소하는 방식으로 적용된다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>94.8%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "속행",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_196.png",
+      "Grade": "전설",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>속행</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_196.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 16% 감소\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[퀘스트] 플레체 - 플레체의 장미</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"사두룡격\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 16초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_21.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 14\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 361 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창을 전방으로 빠르게 <FONT COLOR='#ffff99'>8</FONT>회 찔러 <FONT COLOR='#ffbb00'>1,424,088</FONT>의 피해를 주고 마지막 찌르기 공격은 <FONT COLOR='#ffbb00'>610,564</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>급소 타격</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_4.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'><FONT COLOR='#ffff99'>1</FONT>회 찌른 후 이동이 가능하며, 잔상이 남아 찌르기를 계속 이어간다. 치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>그림자 찌르기</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_88.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>94.8%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 포착</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>속행</FONT>] 스킬 사용 시 일정 확률로 전체 재사용 대기 시간이 16% 감소\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>사두룡격</FONT> 피해 44.00% 증가 \"\r\n    }\r\n  }\r\n}"
+  },
+  {
+    "Name": "굉열파",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_22.png",
+    "Level": 14,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "보호막",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_75.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 자신의 최대 생명력의 <FONT COLOR='#99ff99'>40.8%</FONT> 만큼 보호막을 얻는다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "재빠른 손놀림",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격 속도가 <FONT COLOR='#99ff99'>36.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "파괴하는 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_33.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_21.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>창으로 찌르는 공격에 부위파괴 <FONT COLOR='#ffff99'>2</FONT>레벨이 부여된다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "공파섬",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_42.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>차지 조작으로 변경되며, 차지 완료 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가하고 치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "공진참",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>찌르기 마지막 공격에 피격된 적에게 기본 피해량의 <FONT COLOR='#99ff99'>60.0%</FONT> 피해를 입히는 기를 부여한다. 기는 적을 <FONT COLOR='#99ff99'>3</FONT>회 타격 후, 마지막 타격으로 적을 날려버린다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "비전",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_210.png",
+      "Grade": "전설",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>비전</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_210.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도 10% 증가 및 스킬 적중 시 무력화 피해가 20% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 가디언의 잔영 1단계</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"굉열파\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_22.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 14\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 456 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창에 기를 모아 가까운 적에게 <FONT COLOR='#ffbb00'>208,413</FONT>, <FONT COLOR='#ffbb00'>208,413</FONT>의 피해를 주고, 전방을 향해 찔러 기를 발사하여 적에게 <FONT COLOR='#ffbb00'>903,029</FONT>의 피해 <FONT COLOR='#ffff99'>3</FONT>회, <FONT COLOR='#ffbb00'>1,042,254</FONT>의 피해 <FONT COLOR='#ffff99'>1</FONT>회를 주며 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격 속도가 <FONT COLOR='#99ff99'>36.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>재빠른 손놀림</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_41.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>치명타 적중률이 <FONT COLOR='#99ff99'>60.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>파괴하는 창</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>차지 조작으로 변경되며, 차지 완료 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가하고 치명타 적중률이 <FONT COLOR='#99ff99'>40.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>공파섬</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_42.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>비전</FONT>] 스킬 시전 속도 10% 증가 및 스킬 적중 시 무력화 피해가 20% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>굉열파</FONT> 피해 44.00% 증가 <BR>[창술사] <FONT COLOR='#FFD200'>굉열파</FONT> 재사용 대기시간 24.00% 감소 \"\r\n    }\r\n  }\r\n}"
+  },
+  {
+    "Name": "유성강천",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_23.png",
+    "Level": 14,
+    "Type": "지점",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "넓은 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 범위가 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "부위파괴 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_21.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>부위파괴 <FONT COLOR='#ffff99'>1</FONT>레벨이 부여된다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "뇌진탕",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_69.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬의 무력화 단계가 [상] 으로 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_37.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>75.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "몰아오기",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_71.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>뛰어오를 때 타격 지점의 반경 <FONT COLOR='#ffff99'>4.4m</FONT>의 적을 끌어당기며, 타격 시 시드 이하의 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "강력한 마무리",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_0.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>더욱 빠르게 뛰고 강하게 내려찍어 피격이상 면역인 적에게 공격 적중 시 치명타 적중률이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "지면 폭발",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_78.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 후 하늘에서 큰 창이 떨어져 적에게 주는 피해가 <FONT COLOR='#99ff99'>100.1%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "질풍",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+      "Grade": "전설",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 7단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 8단계</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"유성강천\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_23.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 14\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 456 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>최대 <FONT COLOR='#ffff99'>10m</FONT> 범위 내 지정된 위치로 점프하여 내리 꽂아 충격파를 일으켜 <FONT COLOR='#ffbb00'>4,103,423</FONT>의 피해를 주고 공중에 띄운다. 내리 꽂기 전 방향 전환이 가능하다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 포착</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_33.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>75.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>화력 조절</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_37.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>더욱 빠르게 뛰고 강하게 내려찍어 피격이상 면역인 적에게 공격 적중 시 치명타 적중률이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>강력한 마무리</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_0.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>유성강천</FONT> 피해 44.00% 증가 <BR>[창술사] <FONT COLOR='#FFD200'>유성강천</FONT> 재사용 대기시간 24.00% 감소 \"\r\n    }\r\n  }\r\n}"
+  },
+  {
+    "Name": "절룡세",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_24.png",
+    "Level": 2,
+    "Type": "일반",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "마력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_34.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>67.0%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "확고한 신념",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_25.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>반격 가능 시간이 <FONT COLOR='#99ff99'>0.1</FONT>초 증가한다. </font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "정신 파괴",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_44.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격 적중 시 피격자는 <FONT COLOR='#ffff99'>5.0</FONT>초 동안 기절에 걸린다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "급소 강타",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>찌르는 공격의 치명타 적중률이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "절대 방어",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_0.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>방어 중 상태이상 공격을 막아내고 창을 찌를 때 적에게 주는 피해가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "기술 강화",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_7.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>창의 찌르는 공격이 <FONT COLOR='#99ff99'>5.0m</FONT> 길어지고, 넓이가 <FONT COLOR='#99ff99'>1.0m</FONT> 늘어난다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "정확한 공격",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_39.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>반격 시 한번 더 깊게 찌르며 적에게 주는 피해가 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다. </font>"
+      }
+    ],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"절룡세\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 20초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_24.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 2\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 108 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창으로 전방을 방어하며, 자신의 최대 생명력의 <FONT COLOR='#99ff99'>60%</FONT> 만큼 적의 공격을 막아낼 수 있다. 이때 <FONT COLOR='#ffff99'>1.1</FONT>초 안에 적의 공격에 방어를 성공하면 전방으로 강하게 창을 찔러 적에게 <FONT COLOR='#ffbb00'>1,838,128</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 헤드 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>\",\r\n        \"lock\": true,\r\n        \"name\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"BlinkLineStart\",\r\n    \"value\": true\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"다음 스킬 레벨 3\"\r\n  },\r\n  \"Element_009\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 레벨</FONT> 32\"\r\n  },\r\n  \"Element_010\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1\"\r\n  },\r\n  \"Element_011\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"마나 130 소모\"\r\n  },\r\n  \"Element_012\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>창으로 전방을 방어하며, 자신의 최대 생명력의 <FONT COLOR='#99ff99'>70%</FONT> 만큼 적의 공격을 막아낼 수 있다. 이때 <FONT COLOR='#ffff99'>1.1</FONT>초 안에 적의 공격에 방어를 성공하면 전방으로 강하게 창을 찔러 적에게 <FONT COLOR='#ffbb00'>1,838,376</FONT>의 피해를 <FONT COLOR='#ffff99'>2</FONT>회 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 헤드 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_013\": {\r\n    \"type\": \"BlinkLineEnd\",\r\n    \"value\": true\r\n  }\r\n}"
+  },
+  {
+    "Name": "적룡포",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_25.png",
+    "Level": 14,
+    "Type": "홀딩",
+    "SkillType": 0,
+    "Tripods": [
+      {
+        "Tier": 0,
+        "Slot": 1,
+        "Name": "반응 속도",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_6.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>홀딩 또는 차지속도가 <FONT COLOR='#99ff99'>30.0%</FONT> 빨라진다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 2,
+        "Name": "화력 조절",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_37.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>공격이 적중할 때 마다 회복하는 듀얼 게이지가 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 0,
+        "Slot": 3,
+        "Name": "단단한 갑옷",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_25.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>스킬 시전 중 받는 피해가 <FONT COLOR='#99ff99'>40.8%</FONT> 감소한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 1,
+        "Name": "단호한 의지",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_1.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>40.0%</FONT> 증가하고 퍼펙트 존의 공격은 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 2,
+        "Name": "진화하는 창술",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_42.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>퍼펙트 존이 사라지고 차지 조작으로 변경된다. 스킬 버튼 지속입력 시 차지되며 <FONT COLOR='#99ff99'>360</FONT>도 방향 전환이 가능하다. 즉시 또는 차지 중 공격 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>58.6%</FONT> 증가하고 오버차지 공격 시 적에게 주는 피해가 퍼펙트 존 효과보다 <FONT COLOR='#99ff99'>83.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 1,
+        "Slot": 3,
+        "Name": "파괴하는 창",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>창을 찌르는 공격의 폭이 <FONT COLOR='#ff9999'>50.0%</FONT> 좁아지지만 치명타 적중률이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 1,
+        "Name": "약점 포착",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png",
+        "IsSelected": true,
+        "Tooltip": "<font color='#FFFDE7'>네임드 등급 이상의 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다.</font>"
+      },
+      {
+        "Tier": 2,
+        "Slot": 2,
+        "Name": "치명적인 조준",
+        "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_89.png",
+        "IsSelected": false,
+        "Tooltip": "<font color='#FFFDE7'>치명타 피해량이 <FONT COLOR='#99ff99'>160.0%</FONT> 증가한다.</font>"
+      }
+    ],
+    "Rune": {
+      "Name": "질풍",
+      "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/use/use_7_194.png",
+      "Grade": "전설",
+      "Tooltip": "{\"Element_000\":{\"type\":\"NameTagBox\",\"value\":\"<P ALIGN='CENTER'><FONT COLOR='#F99200'>질풍</FONT></P>\"},\"Element_001\":{\"type\":\"ItemTitle\",\"value\":{\"bEquip\":0,\"itemIrochiCount\":0,\"leftStr0\":\"<FONT SIZE='12'><FONT COLOR='#F99200'>전설 스킬 룬</FONT></FONT>\",\"leftStr1\":\"\",\"leftStr2\":\"\",\"qualityValue\":-1,\"rightStr0\":\"\",\"slotData\":{\"advBookIcon\":0,\"battleItemTypeIcon\":0,\"blackListIcon\":0,\"cardIcon\":false,\"friendship\":0,\"iconGrade\":4,\"iconPath\":\"efui_iconatlas/use/use_7_194.png\",\"imagePath\":\"\",\"islandIcon\":0,\"petBorder\":0,\"rtString\":\"\",\"seal\":false,\"temporary\":0,\"town\":0,\"trash\":0}}},\"Element_002\":null,\"Element_003\":{\"type\":\"ItemPartBox\",\"value\":{\"Element_000\":\"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\"Element_001\":\"스킬 시전 속도가 14% 증가\"}},\"Element_004\":{\"type\":\"SingleTextBox\",\"value\":\"<FONT COLOR='#E2C87A'><FONT SIZE='12'>스킬에 강력한 힘을 부여할 수 있는 특별한 룬이다.</FONT></FONT>\"},\"Element_005\":{\"type\":\"Progress\",\"value\":null},\"Element_006\":{\"type\":\"Progress\",\"value\":null},\"Element_007\":{\"type\":\"SingleTextBox\",\"value\":\"<Font color='#5FD3F1'>[가디언 토벌] 시험 6단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 7단계</font><BR><Font color='#5FD3F1'>[가디언 토벌] 시험 8단계</font>\"}}"
+    },
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"적룡포\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 24초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_25.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 14\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 456 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>홀딩 스킬이며 자세를 잡고 정신을 한 곳으로 집중한 뒤 전방 <FONT COLOR='#ffff99'>12m</FONT>, <FONT COLOR='#ffff99'>90</FONT>도 내에 조준하여 창을 찔러 적에게 <FONT COLOR='#00ccff'>2,552,429</FONT>의 피해를 준다. 퍼펙트 존에 맞춰 키 입력을 떼면 <FONT COLOR='#ffff99'>16m</FONT> 거리까지 발사되며 적에게 <FONT COLOR='#00ccff'>5,104,856</FONT>의 피해를 주며 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  },\r\n  \"Element_006\": {\r\n    \"type\": \"TripodSkillCustom\",\r\n    \"value\": {\r\n      \"Element_000\": {\r\n        \"desc\": \"<font color='#FFFDE7'>홀딩 또는 차지속도가 <FONT COLOR='#99ff99'>30.0%</FONT> 빨라진다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>반응 속도</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_1_6.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_001\": {\r\n        \"desc\": \"<font color='#FFFDE7'>창을 찌르는 공격의 폭이 <FONT COLOR='#ff9999'>50.0%</FONT> 좁아지지만 치명타 적중률이 <FONT COLOR='#99ff99'>100.0%</FONT> 증가하며 치명타 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>파괴하는 창</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_2_4.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      },\r\n      \"Element_002\": {\r\n        \"desc\": \"<font color='#FFFDE7'>네임드 등급 이상의 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다.</font>\",\r\n        \"lock\": false,\r\n        \"name\": \"<font color='#FFBB63'>약점 포착</font>\",\r\n        \"slotData\": {\r\n          \"iconGrade\": 10,\r\n          \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/tripod_tier/tripod_tier_3_33.png\",\r\n          \"imagePath\": \"\"\r\n        }\r\n      }\r\n    }\r\n  },\r\n  \"Element_007\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>\",\r\n      \"Element_001\": \"[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가\"\r\n    }\r\n  },\r\n  \"Element_008\": {\r\n    \"type\": \"ItemPartBox\",\r\n    \"value\": {\r\n      \"Element_000\": \"<FONT COLOR='#A9D0F5'>보석 효과</FONT>\",\r\n      \"Element_001\": \"[창술사] <FONT COLOR='#FFD200'>적룡포</FONT> 피해 44.00% 증가 <BR>[창술사] <FONT COLOR='#FFD200'>적룡포</FONT> 재사용 대기시간 24.00% 감소 \"\r\n    }\r\n  }\r\n}"
+  },
+  {
+    "Name": "맹룡난무",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_28.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 1,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"맹룡난무\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 50초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#5CD1E5'>[난무 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_28.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 695 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>몸 주변으로 창을 빠르게 <FONT COLOR='#ffff99'>2</FONT>회 휘둘러 <FONT COLOR='#ffbb00'>9,416,160</FONT>, <FONT COLOR='#ffbb00'>14,123,733</FONT>의 피해를 주고, 기운을 모아 거대한 창을 만들어낸 뒤 강력하게 휘둘러 <FONT COLOR='#ffbb00'>23,540,066</FONT>의 피해를 주고 적을 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  }\r\n}"
+  },
+  {
+    "Name": "적룡필살",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_29.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 1,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"적룡필살\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 55초</FONT>\",\r\n      \"level\": \"<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F15F5F'>[집중 스킬]</FONT></FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_29.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"마나 734 소모|\"\r\n  },\r\n  \"Element_005\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>뒤로 점프하여 기운을 모은 후 적룡의 기운과 함께 전방으로 돌진하며 적을 타격하여 <FONT COLOR='#ffbb00'>27,942,588</FONT>의 피해를 주고 적을 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>\"\r\n  }\r\n}"
+  },
+  {
+    "Name": "연가창식: 은하유성탄",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_26.png",
+    "Level": 1,
+    "Type": "지점",
+    "SkillType": 100,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"연가창식: 은하유성탄\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 5분</FONT>\",\r\n      \"level\": \"<FONT SIZE='14'><FONT COLOR='#E73517'>각성기</FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_26.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>마우스 지점에 공격을 가한다. 도약하여 전방을 바라보며 후방으로 <FONT COLOR='#ffff99'>4m</FONT> 가량 공중으로 점프한다. 이후 창에 기를 집중하고 선택한 지점에 창을 던진다. 창이 지점에 떨어지며 <FONT COLOR='#ffbb00'>12,105,059</FONT>의 피해를 주고 서서히 폭발하여 <FONT COLOR='#00ccff'>24,211,144</FONT>, <FONT COLOR='#00ccff'>24,211,144</FONT>, <FONT COLOR='#00ccff'>15,737,261</FONT>, <FONT COLOR='#00ccff'>15,737,261</FONT>, <FONT COLOR='#00ccff'>14,526,752</FONT>의 피해를 주고 마지막 <FONT COLOR='#00ccff'>14,526,752</FONT>의 피해를 주며 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>\"\r\n  }\r\n}"
+  },
+  {
+    "Name": "연가창식: 은하비섬창",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_30.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 101,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"연가창식: 은하비섬창\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 5분</FONT>\",\r\n      \"level\": \"<FONT SIZE='14'><FONT COLOR='#E73517'>초각성기</FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_30.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>하늘의 높은 곳으로 뛰어올라 바람을 가르며 매우 빠른 속도로 낙하하며 창을 내려꽂아 강력한 충격파로 주변 일대를 파괴시켜 <FONT COLOR='#00ccff'>4,758,575,616</FONT>의 피해를 주고 적을 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 최상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>\"\r\n  }\r\n}"
+  },
+  {
+    "Name": "연가창식: 적룡질풍격",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_27.png",
+    "Level": 1,
+    "Type": "홀딩",
+    "SkillType": 100,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"연가창식: 적룡질풍격\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 5분</FONT>\",\r\n      \"level\": \"<FONT SIZE='14'><FONT COLOR='#E73517'>각성기</FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_27.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>정신을 집중 한 뒤 순간적으로 전방에 창을 찔러 <FONT COLOR='#ffbb00'>6,341,966</FONT>의 피해를 주며 창을 당겨 <FONT COLOR='#ffbb00'>6,341,966</FONT>의 피해를 주며 적들을 당겨온다. 이후 창을 휘둘러 <FONT COLOR='#ffbb00'>10,147,142</FONT>의 피해를 <FONT COLOR='#ffff99'>5</FONT>회 주고 찌르는 공격으로 <FONT COLOR='#ffbb00'>6,341,966</FONT>의 피해를 <FONT COLOR='#ffff99'>8</FONT>회 준다. 피니쉬로 전방으로 <FONT COLOR='#ffff99'>8m</FONT>가량 전진하며 이동 공격을 하여 적에게 <FONT COLOR='#ffbb00'>12,684,444</FONT>의 피해를 주며 날려버린다. 이동 중 모험가 및 몬스터와 충돌이 무시된다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>\"\r\n  }\r\n}"
+  },
+  {
+    "Name": "연가창식: 마룡합일섬",
+    "Icon": "https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_31.png",
+    "Level": 1,
+    "Type": "일반",
+    "SkillType": 101,
+    "Tripods": [],
+    "Rune": null,
+    "Tooltip": "{\r\n  \"Element_000\": {\r\n    \"type\": \"NameTagBox\",\r\n    \"value\": \"연가창식: 마룡합일섬\"\r\n  },\r\n  \"Element_001\": {\r\n    \"type\": \"CommonSkillTitle\",\r\n    \"value\": {\r\n      \"leftText\": \"<FONT SIZE='12'>재사용 대기시간 5분</FONT>\",\r\n      \"level\": \"<FONT SIZE='14'><FONT COLOR='#E73517'>초각성기</FONT></FONT>\",\r\n      \"middleText\": \"\",\r\n      \"name\": \"<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>\",\r\n      \"slotData\": {\r\n        \"iconGrade\": 0,\r\n        \"iconPath\": \"https://cdn-lostark.game.onstove.com/efui_iconatlas/lm_skill/lm_skill_01_31.png\",\r\n        \"imagePath\": \"\"\r\n      }\r\n    }\r\n  },\r\n  \"Element_002\": {\r\n    \"type\": \"MultiTextBox\",\r\n    \"value\": \"|<FONT COLOR='#3C78FF'>PvE</FONT>\"\r\n  },\r\n  \"Element_003\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"스킬 레벨 1 (최대)\"\r\n  },\r\n  \"Element_004\": {\r\n    \"type\": \"SingleTextBox\",\r\n    \"value\": \"<FONT COLOR='#efefdf'><FONT SIZE='11'>전방을 향해 창을 <FONT COLOR='#ffff99'>5</FONT>회 휘둘러 <FONT COLOR='#ffbb00'>496,087,744</FONT>, <FONT COLOR='#ffbb00'>496,087,744</FONT>, <FONT COLOR='#ffbb00'>496,087,744</FONT>, <FONT COLOR='#ffbb00'>496,087,744</FONT>, <FONT COLOR='#ffbb00'>992,174,016</FONT>의 피해를 입히고, 말을 불러내 탑승 후 돌격하여 적을 공중으로 띄우고 <FONT COLOR='#ffbb00'>198,434,992</FONT>의 피해를 <FONT COLOR='#ffff99'>10</FONT>회 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 최상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>\"\r\n  }\r\n}"
+  }
+]

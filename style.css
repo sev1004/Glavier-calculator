@@ -1,20 +1,30 @@
-/* 기본 리셋 + 보기 좋은 기본값 */
+/* ========== Base Reset ========== */
 * { box-sizing: border-box; }
+
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --border: #1f2937;
+  --muted: #94a3b8;
+  --text: #e2e8f0;
+  --accent: #64748b;
+}
 
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans KR", sans-serif;
-  background: #0f172a; /* 어두운 배경 */
-  color: #e2e8f0;      /* 밝은 글자 */
+  background: var(--bg);
+  color: var(--text);
 }
 
+/* ========== Layout ========== */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 24px 16px;
 }
 
-header {
+.topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,29 +37,15 @@ h1 {
   margin: 0;
 }
 
-.card {
-  background: #111827;
-  border: 1px solid #1f2937;
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.03);
+  color: var(--muted);
 }
 
-button {
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid #334155;
-  background: #0b1220;
-  color: #e2e8f0;
-  cursor: pointer;
-}
-
-button:hover {
-  filter: brightness(1.15);
-}
-
-
-/* 다음 단계에서 쓸 “그리드 레이아웃” */
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -57,7 +53,229 @@ button:hover {
 }
 
 @media (min-width: 900px) {
-  .grid {
-    grid-template-columns: 360px 1fr;
+  .grid { grid-template-columns: 360px 1fr; }
+}
+
+/* ========== Card ========== */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.cardInner {
+  margin-top: 12px;
+  border: 1px dashed rgba(148,163,184,0.35);
+  border-radius: 12px;
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.pill {
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,0.35);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* ========== Form ========== */
+h2 { margin: 0 0 12px; font-size: 16px; }
+
+.field { display: grid; gap: 8px; }
+label { font-size: 13px; color: #cbd5e1; }
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.row-compact {
+  justify-content: space-between;
+}
+
+input[type="text"], input[type="password"]{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: var(--text);
+  outline: none;
+}
+
+input:focus { border-color: var(--accent); }
+
+.checkbox {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+button {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0b1220;
+  color: var(--text);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button:hover { filter: brightness(1.15); }
+
+button.danger { border-color: #7f1d1d; }
+
+.help {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.status {
+  margin: 0;
+  font-size: 13px;
+  color: #a7f3d0;
+  min-height: 18px;
+}
+
+.sep {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 14px 0;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  color: #cbd5e1;
+}
+
+/* Mobile: 버튼/인풋 세로 정렬 */
+@media (max-width: 420px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
   }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* ========== List ========== */
+.list {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid rgba(148,163,184,0.25);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(255,255,255,0.02);
+  display: grid;
+  gap: 6px;
+}
+
+.itemTitle { font-weight: 700; }
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,0.35);
+  color: #cbd5e1;
+}
+.tripods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tripod {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,0.25);
+  color: #e2e8f0;
+}
+
+/* ========== Skill Row + Gems ========== */
+.skillRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.skillIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid rgba(148,163,184,0.25);
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.skillMid {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.skillTopLine {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.skillName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* gems on the right */
+.gemWrap {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.gem {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  width: 62px;
+}
+
+.gemIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid rgba(148,163,184,0.25);
+  object-fit: cover;
+}
+
+.gemName {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.2;
+  word-break: keep-all;
+}
+
+/* Mobile: gems drop under (slight indent) */
+@media (max-width: 420px) {
+  .skillRow { align-items: flex-start; }
+  .gemWrap { margin-left: 54px; }
 }

@@ -2,32 +2,83 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>Lost Ark Glavier Simulator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glavier Calculator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <header>
+    <header class="topbar">
       <h1>글레이브(창술사) 스킬 시뮬레이터</h1>
-      <div>v0.1</div>
+      <div class="badge" id="appVersion">v0.1</div>
     </header>
 
-    <div class="grid">
+    <main class="grid">
+      <!-- 왼쪽: 설정 -->
       <section class="card">
         <h2>설정</h2>
-        <p>여기에 클래스/스탯/각인/보석 등을 넣을 예정</p>
 
-        <button id="testBtn">테스트 버튼</button>
-        <p id="testResult"></p>
+        <div class="field">
+          <label for="patInput">로스트아크 개발자 JWT (PAT)</label>
+
+          <div class="row">
+            <input
+              id="patInput"
+              type="password"
+              inputmode="text"
+              autocomplete="off"
+              placeholder="토큰을 붙여넣으세요 (bearer 없이도 OK)"
+            />
+            <button id="togglePatBtn" type="button">표시</button>
+          </div>
+
+          <div class="row row-compact">
+            <label class="checkbox">
+              <input id="rememberPat" type="checkbox" />
+              이 기기에서 기억하기(로컬 저장)
+            </label>
+
+            <button id="clearPatBtn" type="button" class="danger">삭제</button>
+          </div>
+
+          <p class="help">
+            ⚠ 공용 PC에서는 “기억하기”를 끄는 걸 추천합니다. (로컬스토리지 저장)
+          </p>
+          <p class="status" id="patStatus"></p>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="field">
+          <label for="characterName">캐릭터명</label>
+          <div class="row">
+            <input id="characterName" type="text" placeholder="예: 만찬도둑" />
+          </div>
+        </div>
       </section>
 
+      <!-- 오른쪽: 시뮬레이터 영역 -->
       <section class="card">
         <h2>시뮬레이터</h2>
-        <p>여기에 스킬 슬롯 UI / 트포 선택 UI가 들어갈 예정</p>
-      </section>
+        <p class="help">
+          스킬 불러오기 시 Lv.7 이상만 표시합니다. (트포/보석 함께 표시)
+        </p>
 
-      
-    </div>
+        <div class="row" style="margin-top: 12px;">
+          <button id="loadArmoryBtn" type="button">스킬/보석 불러오기</button>
+          <button id="loadMockBtn" type="button">목업 로드</button>
+          <button id="saveRawSkillsBtn" type="button">RAW 스킬 저장</button>
+          <button id="saveRawGemsBtn" type="button">RAW 보석 저장</button>
+        </div>
+
+        <div class="cardInner">
+          <div class="pill">상태</div>
+          <div id="simStatus" class="mono">준비 완료</div>
+        </div>
+
+        <div class="list" id="skillList"></div>
+      </section>
+    </main>
   </div>
 
   <script src="main.js"></script>
