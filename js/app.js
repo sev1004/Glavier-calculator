@@ -154,30 +154,6 @@ import { loadEquipment } from "./features/equipment/components/equip.js";
     btn.addEventListener("click", () => setActiveTab(btn.dataset.tab));
   });
 
-  // 기본 탭
- function setActiveTab(tabName) {
-  window.AppState.activeTab = tabName;
-
-  document.querySelectorAll(".tabBtn").forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.tab === tabName);
-  });
-
-  document.querySelectorAll(".tabPanel").forEach((panel) => {
-    panel.style.display = panel.dataset.tab === tabName ? "block" : "none";
-  });
-
-  // ✅ 장비 탭 진입 시 자동 로드
-  if (tabName === "equipment") {
-    const equipRoot = window.AppState._equipRootEl;
-    const accessoryRoot = window.AppState._accessoryRootEl;
-    const engravingRoot = window.AppState._engravingRootEl;
-
-    if (equipRoot) loadEquipment(equipRoot, globalStatus);
-    if (accessoryRoot) loadAccessories(accessoryRoot, globalStatus);
-    if (engravingRoot) loadEngravings(engravingRoot, globalStatus);
-  }
-}
-
   // ===== 장비 자동 로드 (디바운스 포함) =====
   let equipLoadTimer = null;
   function triggerEquipmentAutoLoad() {
