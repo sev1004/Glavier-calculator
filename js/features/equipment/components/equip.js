@@ -1,4 +1,4 @@
-import { fetchJson, makeAuthHeader } from "../../core/api.js";
+import { fetchCharacterEquipment } from "../equipment.api.js";
 
 /**
  * [equip.section.js]
@@ -321,15 +321,8 @@ export async function loadEquipment(equipRootEl, globalStatusEl) {
   if (globalStatusEl) globalStatusEl.textContent = "장비 불러오는 중...";
 
   try {
-    // ✅ 장비 엔드포인트 (확정)
-    const url = `https://developer-lostark.game.onstove.com/armories/characters/${encodeURIComponent(
-      charName
-    )}/equipment`;
-
-    const raw = await fetchJson(url, {
-      accept: "application/json",
-      authorization: makeAuthHeader(token),
-    });
+    // ✅ API 호출을 equipment.api.js로 위임
+    const raw = await fetchCharacterEquipment(charName, token);
 
     // AppState 버킷 확보 + 원본 저장
     const bucket = ensureAppStateBucket();
